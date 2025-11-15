@@ -1,10 +1,9 @@
 
-
+export function run()  {
     console.log('Hello, Hexlet');
-    import _ from 'lodash';
+    
     console.log(_.last(['one', 'two']));
+}
+ 
 
-
-import { run } from './src/index.js';
-
-run();
+run ()
